@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us"> 
+
+<head> 
+	<meta charset="UTF-8">
+	<title>Hangman Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href ="assets/css/style.css">  
+	<script src="assets/javascript/game.js"></script>
+</head>    
+
+<body>  
+
+	<div class="container"> 
+		<header>
+			<h1>Hangman Game</h1> 
+		</header>
+			<p>Press any letter key to start playing!</p>  
+
+			<div id="game">
+				<ul class="results">
+					<li class="results"><p id ="wins">Wins:</p></li>
+					<li class="results"><p id="losses">Losses:</p></li> 
+					<li class="results"><p id="guessesLeft">Number of Guesses Left: 10</p></li> 
+					<li class="results"><p id="letters">Guessed Letters: </p></li> 
+					<li class="results"><p id="currentWord">Current Word:<input type="text" id="alaphabet" onekeyup="myFunction()"></p></li>
+			</div>
+
+		</div>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script> 
+</body>
+</html> 
