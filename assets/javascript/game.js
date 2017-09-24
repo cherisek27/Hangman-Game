@@ -17,8 +17,6 @@ var winCounter = 0;
 var lossCounter = 0;
 var numGuesses = 9;
 
-// FUNCTIONS (These are bits of code that we will call upon to run when needed)
-// =========================================================================================
 
 // startGame()
 // Its how we we will start and restart the game.
@@ -63,8 +61,7 @@ function startGame() {
 }
 
 // checkLettesr() function
-// It's where we will do all of the comparisons for matches.
-// Again, it's not being called here. It's just being made for future use.
+
 function checkLetters(letter) {
 
   // This boolean will be toggled based on whether or not a user letter is found anywhere in the word.
